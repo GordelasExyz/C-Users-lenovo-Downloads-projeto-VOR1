@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VOR1 - Luminária LED</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+    }
+    header {
+      background-color: #1a1a1a;
+      padding: 20px;
+    }
+    header img {
+      width: 300px;
+      height: 100px;
+      object-fit: cover;
+    }
+    .produto {
+      padding: 30px 20px;
+    }
+    .produto img {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(138,43,226,0.6);
+    }
+    .produto h1 {
+      font-size: 28px;
+      margin-top: 20px;
+      color: #b57edc;
+    }
+    .produto p {
+      font-size: 18px;
+      margin: 15px 0;
+      line-height: 1.5;
+    }
+    .preco {
+      font-size: 24px;
+      color: gold;
+      margin: 20px 0;
+    }
+    .botao {
+      background: linear-gradient(90deg, #6a0dad, #8e44ad);
+      border: none;
+      padding: 15px 30px;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #888;
+    }
+    @media (max-width: 768px) {
+      .produto h1 {
+        font-size: 24px;
+      }
+      .produto p {
+        font-size: 16px;
+      }
+      .preco {
+        font-size: 20px;
+      }
+      .botao {
+        font-size: 16px;
+        padding: 10px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Empresa VOR1.png" alt="Logo da Empresa VOR1" />
+  </header>
+  <section class="produto">
+    <h1>Luminária LED com Sensor de Movimento</h1>
+    <p>Ilumine qualquer ambiente com praticidade! Ideal para corredores, armários e banheiros. Dispensa fios, com sensor inteligente de presença. Fácil de instalar!</p>
+    <div class="preco">R$ 60,00</div>
+    <!-- Botão de pagamento substituindo o WhatsApp -->
+    <a class="botao" href="https://sua-pagina-de-pagamento.com" target="_blank">Pagar Agora</a>
+  </section>
+  <footer>
+    © 2025 VOR1 - Todos os direitos reservados
+  </footer>
+</body>
+</html>
